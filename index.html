@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- swiper link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@11.0.4/swiper-bundle.min.css"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -13,7 +20,7 @@
   <body>
     <!--header section starts here-->
     <header class="header">
-      <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
+      <div id="menu-btn" class="fas fa-bars"></div>
       <a href="#" class="logo"> Coffee <i class="fa-solid fa-mug-hot"></i></a>
       <nav class="navbar">
         <a href="#home">Home</a>
@@ -154,13 +161,14 @@
     <!-- menu section ends here -->
 
     <!--review secton starts here-->
+
     <section class="review" id="review">
       <h1 class="heading">Review <span>From Customers</span></h1>
-      <div class="swiper review -slider">
+      <div class="swiper review-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide box">
             <i class="fa-solid fa-quote-left"></i>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <img src="./images/pic-1.png" alt="" />
             <div class="stars">
               <i class="fa fa-star"></i>
@@ -178,7 +186,7 @@
           </div>
           <div class="swiper-slide box">
             <i class="fa-solid fa-quote-left"></i>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <img src="./images/pic-2.png" alt="" />
             <div class="stars">
               <i class="fa fa-star"></i>
@@ -196,7 +204,7 @@
           </div>
           <div class="swiper-slide box">
             <i class="fa-solid fa-quote-left"></i>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <img src="./images/pic-3.png" alt="" />
             <div class="stars">
               <i class="fa fa-star"></i>
@@ -214,7 +222,7 @@
           </div>
           <div class="swiper-slide box">
             <i class="fa-solid fa-quote-left"></i>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <img src="./images/pic-4.png" alt="" />
             <div class="stars">
               <i class="fa fa-star"></i>
@@ -231,6 +239,7 @@
             <span>Happy client</span>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -265,7 +274,7 @@
     </section>
 
     <!-- footer section ends here -->
-
+    <script src="https://unpkg.com/swiper@11.0.4/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
