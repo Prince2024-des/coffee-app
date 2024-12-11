@@ -362,7 +362,7 @@ section {
 
   #home {
     display: block;
-    width: 180%;
+    width: 250%;
   }
 
   #home .row {
@@ -375,10 +375,10 @@ section {
   }
 
   #home .row .content h3 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 4rem;
     /* text-align: center; */
-    width: 150%;
+    width: 180%;
   }
 
   #home .row .image img {
@@ -404,12 +404,12 @@ section {
   }
 
   .about{
-    width:180%;
+    width:250%;
     /* margin: auto; */
     /* display: flex; */
     /* flex-direction: column; */
     /* background-color: red; */
-    margin-top: 5rem;
+    margin-top: 10rem;
     /* align-self: center; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -418,7 +418,7 @@ section {
   #about .row .content .icons-container{
      display: block;
      margin-bottom: 10rem;
-     width: 150%;
+     width: 100%;
   }
 
 
@@ -451,7 +451,7 @@ section {
   }
 
   #menu{
-    width: 170%;
+    width: 250%;
   }
 
 
@@ -465,20 +465,26 @@ section {
 #menu .heading span  {
   width: 100%;
   font-size: 4rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #menu .box-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  padding: 15px;
   /* align-items: center; */
 
 }
 
 #review{
-  width: 180%;
+  width: 250%;
   margin-top: 10rem;
+}
+
+#swiper .review-slider{
+
 }
 
 
